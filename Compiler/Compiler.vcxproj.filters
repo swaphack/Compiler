@@ -1,0 +1,388 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="compiler">
+      <UniqueIdentifier>{22c326bf-2a6a-484a-aa1c-34e29c158351}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="analysis">
+      <UniqueIdentifier>{731bbc21-d220-46e3-9011-f021bfc1c7a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="synthesis">
+      <UniqueIdentifier>{f23ed216-9f3a-4339-80c3-63a11e76cbee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="collections">
+      <UniqueIdentifier>{c12f4f21-38ca-4bba-9796-23f2c525e22a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="stream">
+      <UniqueIdentifier>{d5c1d96f-3f79-4156-8ff0-e40414ffb5a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data">
+      <UniqueIdentifier>{169145e4-a6ba-4334-80f0-a4d3b5df08af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="project">
+      <UniqueIdentifier>{9127591a-b113-4be0-b64f-924286c06426}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="code">
+      <UniqueIdentifier>{4d1eba27-2bc8-4089-99da-810996b401e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="code\c">
+      <UniqueIdentifier>{954c2564-92db-49a4-8ecf-044491d42452}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="regex">
+      <UniqueIdentifier>{a347d152-6e27-4804-b98b-f6a003ad61a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="analysis\lexical">
+      <UniqueIdentifier>{63107e0b-34ee-4dff-ab04-a20c1bd70bfb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="analysis\syntax">
+      <UniqueIdentifier>{9930c776-80a2-4f9b-94ab-671431a61c32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="analysis\block">
+      <UniqueIdentifier>{4d90da0c-d476-4ff2-86c2-1084057fcc9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="analysis\il">
+      <UniqueIdentifier>{60d48027-3388-4289-80c7-c6ecfb7e6b0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="algorithm">
+      <UniqueIdentifier>{95178bd7-873e-49f8-9e03-c7cf46f85f6b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="analysis\symbol_table.h">
+      <Filter>analysis</Filter>
+    </ClInclude>
+    <ClInclude Include="compiler\assembler.h">
+      <Filter>compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="compiler\interpreter.h">
+      <Filter>compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="compiler\linker.h">
+      <Filter>compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="compiler\loader.h">
+      <Filter>compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="compiler\preprocessor.h">
+      <Filter>compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="collections\list.h">
+      <Filter>collections</Filter>
+    </ClInclude>
+    <ClInclude Include="collections\set.h">
+      <Filter>collections</Filter>
+    </ClInclude>
+    <ClInclude Include="collections\vector.h">
+      <Filter>collections</Filter>
+    </ClInclude>
+    <ClInclude Include="collections\map.h">
+      <Filter>collections</Filter>
+    </ClInclude>
+    <ClInclude Include="collections\binary_tree.h">
+      <Filter>collections</Filter>
+    </ClInclude>
+    <ClInclude Include="stream\string_stream.h">
+      <Filter>stream</Filter>
+    </ClInclude>
+    <ClInclude Include="collections\hash.h">
+      <Filter>collections</Filter>
+    </ClInclude>
+    <ClInclude Include="data\data.h">
+      <Filter>data</Filter>
+    </ClInclude>
+    <ClInclude Include="data\data_enum.h">
+      <Filter>data</Filter>
+    </ClInclude>
+    <ClInclude Include="data\macros.h">
+      <Filter>data</Filter>
+    </ClInclude>
+    <ClInclude Include="data\string_data.h">
+      <Filter>data</Filter>
+    </ClInclude>
+    <ClInclude Include="collections\matrix.h">
+      <Filter>collections</Filter>
+    </ClInclude>
+    <ClInclude Include="data\string_builder.h">
+      <Filter>data</Filter>
+    </ClInclude>
+    <ClInclude Include="collections\queue.h">
+      <Filter>collections</Filter>
+    </ClInclude>
+    <ClInclude Include="collections\stack.h">
+      <Filter>collections</Filter>
+    </ClInclude>
+    <ClInclude Include="collections\macros.h">
+      <Filter>collections</Filter>
+    </ClInclude>
+    <ClInclude Include="project\project_path.h">
+      <Filter>project</Filter>
+    </ClInclude>
+    <ClInclude Include="project\path.h">
+      <Filter>project</Filter>
+    </ClInclude>
+    <ClInclude Include="analysis\project_code.h">
+      <Filter>analysis</Filter>
+    </ClInclude>
+    <ClInclude Include="code\c\scanning_c.h">
+      <Filter>code\c</Filter>
+    </ClInclude>
+    <ClInclude Include="collections\extensions.h">
+      <Filter>collections</Filter>
+    </ClInclude>
+    <ClInclude Include="project\file.h">
+      <Filter>project</Filter>
+    </ClInclude>
+    <ClInclude Include="stream\stream.h">
+      <Filter>stream</Filter>
+    </ClInclude>
+    <ClInclude Include="analysis\scope.h">
+      <Filter>analysis</Filter>
+    </ClInclude>
+    <ClInclude Include="data\string_list.h">
+      <Filter>data</Filter>
+    </ClInclude>
+    <ClInclude Include="data\string_vector.h">
+      <Filter>data</Filter>
+    </ClInclude>
+    <ClInclude Include="analysis\analysis_error.h">
+      <Filter>analysis</Filter>
+    </ClInclude>
+    <ClInclude Include="analysis\analysis_table.h">
+      <Filter>analysis</Filter>
+    </ClInclude>
+    <ClInclude Include="regex\regex.h">
+      <Filter>regex</Filter>
+    </ClInclude>
+    <ClInclude Include="analysis\syntax\syntax_analysis.h">
+      <Filter>analysis\syntax</Filter>
+    </ClInclude>
+    <ClInclude Include="analysis\syntax\syntax_bnf.h">
+      <Filter>analysis\syntax</Filter>
+    </ClInclude>
+    <ClInclude Include="analysis\syntax\syntax_directed_translation.h">
+      <Filter>analysis\syntax</Filter>
+    </ClInclude>
+    <ClInclude Include="analysis\syntax\syntax_tree.h">
+      <Filter>analysis\syntax</Filter>
+    </ClInclude>
+    <ClInclude Include="analysis\syntax\three_address_code.h">
+      <Filter>analysis\syntax</Filter>
+    </ClInclude>
+    <ClInclude Include="analysis\lexical\scanning.h">
+      <Filter>analysis\lexical</Filter>
+    </ClInclude>
+    <ClInclude Include="analysis\lexical\lexical_analysis.h">
+      <Filter>analysis\lexical</Filter>
+    </ClInclude>
+    <ClInclude Include="analysis\block\struct_block.h">
+      <Filter>analysis\block</Filter>
+    </ClInclude>
+    <ClInclude Include="analysis\il\op_stack.h">
+      <Filter>analysis\il</Filter>
+    </ClInclude>
+    <ClInclude Include="analysis\il\op_codes.h">
+      <Filter>analysis\il</Filter>
+    </ClInclude>
+    <ClInclude Include="analysis\block\scope_info.h">
+      <Filter>analysis\block</Filter>
+    </ClInclude>
+    <ClInclude Include="analysis\block\function_block.h">
+      <Filter>analysis\block</Filter>
+    </ClInclude>
+    <ClInclude Include="analysis\block\marcros.h">
+      <Filter>analysis\block</Filter>
+    </ClInclude>
+    <ClInclude Include="analysis\block\variable_block.h">
+      <Filter>analysis\block</Filter>
+    </ClInclude>
+    <ClInclude Include="analysis\block\namespace_block.h">
+      <Filter>analysis\block</Filter>
+    </ClInclude>
+    <ClInclude Include="analysis\lexical\grammer.h">
+      <Filter>analysis\lexical</Filter>
+    </ClInclude>
+    <ClInclude Include="code\c\analysis_table_c.h">
+      <Filter>code\c</Filter>
+    </ClInclude>
+    <ClInclude Include="regex\regex_meta.h">
+      <Filter>regex</Filter>
+    </ClInclude>
+    <ClInclude Include="regex\regex_match.h">
+      <Filter>regex</Filter>
+    </ClInclude>
+    <ClInclude Include="data\public_data.h">
+      <Filter>data</Filter>
+    </ClInclude>
+    <ClInclude Include="regex\regex_guts.h">
+      <Filter>regex</Filter>
+    </ClInclude>
+    <ClInclude Include="collections\tree.h">
+      <Filter>collections</Filter>
+    </ClInclude>
+    <ClInclude Include="regex\regex_pattern.h">
+      <Filter>regex</Filter>
+    </ClInclude>
+    <ClInclude Include="regex\regex_meta_match.h">
+      <Filter>regex</Filter>
+    </ClInclude>
+    <ClInclude Include="regex\regex_expr_match.h">
+      <Filter>regex</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithm\alg_sort.h">
+      <Filter>algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithm\alg_convert.h">
+      <Filter>algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithm\macros.h">
+      <Filter>algorithm</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="collections\list.c">
+      <Filter>collections</Filter>
+    </ClCompile>
+    <ClCompile Include="collections\binary_tree.c">
+      <Filter>collections</Filter>
+    </ClCompile>
+    <ClCompile Include="main.c" />
+    <ClCompile Include="collections\vector.c">
+      <Filter>collections</Filter>
+    </ClCompile>
+    <ClCompile Include="collections\hash.c">
+      <Filter>collections</Filter>
+    </ClCompile>
+    <ClCompile Include="data\data.c">
+      <Filter>data</Filter>
+    </ClCompile>
+    <ClCompile Include="data\string_data.c">
+      <Filter>data</Filter>
+    </ClCompile>
+    <ClCompile Include="collections\map.c">
+      <Filter>collections</Filter>
+    </ClCompile>
+    <ClCompile Include="collections\set.c">
+      <Filter>collections</Filter>
+    </ClCompile>
+    <ClCompile Include="collections\matrix.c">
+      <Filter>collections</Filter>
+    </ClCompile>
+    <ClCompile Include="data\string_builder.c">
+      <Filter>data</Filter>
+    </ClCompile>
+    <ClCompile Include="analysis\symbol_table.c">
+      <Filter>analysis</Filter>
+    </ClCompile>
+    <ClCompile Include="collections\queue.c">
+      <Filter>collections</Filter>
+    </ClCompile>
+    <ClCompile Include="collections\stack.c">
+      <Filter>collections</Filter>
+    </ClCompile>
+    <ClCompile Include="project\project_path.c">
+      <Filter>project</Filter>
+    </ClCompile>
+    <ClCompile Include="project\path.c">
+      <Filter>project</Filter>
+    </ClCompile>
+    <ClCompile Include="analysis\project_code.c">
+      <Filter>analysis</Filter>
+    </ClCompile>
+    <ClCompile Include="code\c\scanning_c.c">
+      <Filter>code\c</Filter>
+    </ClCompile>
+    <ClCompile Include="collections\extensions.c">
+      <Filter>collections</Filter>
+    </ClCompile>
+    <ClCompile Include="project\file.c">
+      <Filter>project</Filter>
+    </ClCompile>
+    <ClCompile Include="stream\string_stream.c">
+      <Filter>stream</Filter>
+    </ClCompile>
+    <ClCompile Include="analysis\scope.c">
+      <Filter>analysis</Filter>
+    </ClCompile>
+    <ClCompile Include="data\string_list.c">
+      <Filter>data</Filter>
+    </ClCompile>
+    <ClCompile Include="data\string_vector.c">
+      <Filter>data</Filter>
+    </ClCompile>
+    <ClCompile Include="analysis\analysis_error.c">
+      <Filter>analysis</Filter>
+    </ClCompile>
+    <ClCompile Include="analysis\analysis_table.c">
+      <Filter>analysis</Filter>
+    </ClCompile>
+    <ClCompile Include="regex\regex.c">
+      <Filter>regex</Filter>
+    </ClCompile>
+    <ClCompile Include="analysis\syntax\syntax_bnf.c">
+      <Filter>analysis\syntax</Filter>
+    </ClCompile>
+    <ClCompile Include="analysis\syntax\syntax_tree.c">
+      <Filter>analysis\syntax</Filter>
+    </ClCompile>
+    <ClCompile Include="analysis\syntax\three_address_code.c">
+      <Filter>analysis\syntax</Filter>
+    </ClCompile>
+    <ClCompile Include="analysis\lexical\scanning.c">
+      <Filter>analysis\lexical</Filter>
+    </ClCompile>
+    <ClCompile Include="analysis\lexical\lexical_analysis.c">
+      <Filter>analysis\lexical</Filter>
+    </ClCompile>
+    <ClCompile Include="analysis\block\struct_block.c">
+      <Filter>analysis\block</Filter>
+    </ClCompile>
+    <ClCompile Include="analysis\il\op_stack.c">
+      <Filter>analysis\il</Filter>
+    </ClCompile>
+    <ClCompile Include="analysis\block\scope_info.c">
+      <Filter>analysis\block</Filter>
+    </ClCompile>
+    <ClCompile Include="analysis\block\function_block.cpp">
+      <Filter>analysis\block</Filter>
+    </ClCompile>
+    <ClCompile Include="analysis\block\namespace_block.c">
+      <Filter>analysis\block</Filter>
+    </ClCompile>
+    <ClCompile Include="analysis\block\variable_block.c">
+      <Filter>analysis\block</Filter>
+    </ClCompile>
+    <ClCompile Include="analysis\lexical\grammer.cpp">
+      <Filter>analysis\lexical</Filter>
+    </ClCompile>
+    <ClCompile Include="code\c\analysis_table_c.c">
+      <Filter>code\c</Filter>
+    </ClCompile>
+    <ClCompile Include="regex\regex_match.c">
+      <Filter>regex</Filter>
+    </ClCompile>
+    <ClCompile Include="regex\regex_meta.c">
+      <Filter>regex</Filter>
+    </ClCompile>
+    <ClCompile Include="regex\regex_guts.c">
+      <Filter>regex</Filter>
+    </ClCompile>
+    <ClCompile Include="collections\tree.c">
+      <Filter>collections</Filter>
+    </ClCompile>
+    <ClCompile Include="regex\regex_pattern.c">
+      <Filter>regex</Filter>
+    </ClCompile>
+    <ClCompile Include="regex\regex_meta_match.c">
+      <Filter>regex</Filter>
+    </ClCompile>
+    <ClCompile Include="regex\regex_expr_match.c">
+      <Filter>regex</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithm\alg_sort.c">
+      <Filter>algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithm\alg_convert.c">
+      <Filter>algorithm</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
